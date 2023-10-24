@@ -1,6 +1,7 @@
 from random import randint
 from time import sleep
 
+
 while True:
     print("i have thought a number from 1 to 10 and try to find out the number i have thought.\n")
     com = randint(1,10)
@@ -21,7 +22,7 @@ while True:
 
     #computer  case
     print("Now, it is time for you to think a number and i will find it out.")
-    sleep(10)
+    sleep(11)
 
     y =0 # number of tries
     while True:
